@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import {Route, Routes} from 'react-router-dom';
 import {Header} from './components';
 import {Home, Cart} from './pages';
@@ -10,8 +9,8 @@ const App = () =>  {
       <Header/>
       <div className="content">
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route path="/cart" element={<Cart />}/>
+        <Route exact path="/donner-shop/" element={<Home/>}/>
+        <Route path="/donner-shop/cart" element={<Cart />}/>
       </Routes>
       </div>
     </div>
