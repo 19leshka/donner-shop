@@ -152,7 +152,7 @@ const Cart = (props) => {
                                 Для того, чтобы заказать пиццу, перейди на главную страницу.
                             </p>
                             <img src={cartEmptyImage} alt="Empty cart" />
-                            <NavLink to="/" className="button button--black">
+                            <NavLink to="/donner-shop/" className="button button--black">
                                 <span>Вернуться назад</span>
                             </NavLink>
                         </div>
