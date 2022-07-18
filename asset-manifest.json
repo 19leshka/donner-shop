@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/donner-shop/static/css/main.363a2758.css",
-    "main.js": "/donner-shop/static/js/main.6fc7fa93.js",
+    "main.js": "/donner-shop/static/js/main.890dc55a.js",
     "static/media/ProximaNova-Regular.eot": "/donner-shop/static/media/ProximaNova-Regular.d97f8f32c098b28c3ab0.eot",
     "static/media/ProximaNova-Regular.ttf": "/donner-shop/static/media/ProximaNova-Regular.b078618b41b9b6629ea0.ttf",
     "static/media/ProximaNova-Bold.eot": "/donner-shop/static/media/ProximaNova-Bold.787088b281e017f8c449.eot",
@@ -18,10 +18,10 @@
     "static/media/empty-cart.png": "/donner-shop/static/media/empty-cart.db905d1f4b063162f25b.png",
     "index.html": "/donner-shop/index.html",
     "main.363a2758.css.map": "/donner-shop/static/css/main.363a2758.css.map",
-    "main.6fc7fa93.js.map": "/donner-shop/static/js/main.6fc7fa93.js.map"
+    "main.890dc55a.js.map": "/donner-shop/static/js/main.890dc55a.js.map"
   },
   "entrypoints": [
     "static/css/main.363a2758.css",
-    "static/js/main.6fc7fa93.js"
+    "static/js/main.890dc55a.js"
   ]
 }
