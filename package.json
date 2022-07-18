@@ -1,7 +1,7 @@
 {
   "name": "doner-shop",
   "version": "0.1.0",
-  "homepage": "https://19leshka.github.io",
+  "homepage": "https://19leshka.github.io/donner-shop",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
