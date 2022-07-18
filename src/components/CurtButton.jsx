@@ -8,7 +8,7 @@ const CurtButton = () => {
 
     return (
         <div className="header__cart">
-            <NavLink to="/cart" className="button button--cart">
+            <NavLink to="/donner-shop/cart" className="button button--cart">
               <span>{price} $</span>
               <div className="button__delimiter"></div>
               <svg
