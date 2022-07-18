@@ -1,7 +1,6 @@
 {
   "name": "doner-shop",
   "version": "0.1.0",
-  "homepage": "https://19leshka.github.io/donner-shop",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -37,7 +36,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "https://github.com/19leshka/Notions-with-tags_DB/",
   "browserslist": {
     "production": [
       ">0.2%",

@@ -6,7 +6,7 @@ import React from "react";
 import {fetchDoners} from "../redux/actions/doners";
 import {addDoner, setItemCount} from '../redux/actions/cart'
 
-const categories = ['Мясные','Вегетарианская','Острые','Закрытые'];
+const categories = ['Мясные','Вегетарианская','Острые'];
 const popUp = [
         {name: 'популярности', type: 'popular'},
         {name: 'цене', type: 'price'},

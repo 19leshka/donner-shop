@@ -11,15 +11,15 @@ export const setLoaded = payload => ({
 export const fetchDoners = (sortBy, category) => (dispatch) => {
     dispatch(setDoners([]))
     dispatch(setLoaded(false));
-    setTimeout(() => {axios.get(`/doners?${
+    axios.get(`https://my-json-server.typicode.com/19leshka/donner-shop-api/doners?${
         category !== null ? `category=${category}&` : ''
     }${
         sortBy === "name" || "price" ? `_sort=${sortBy}&_order=asc` :  `_sort=${sortBy}&_order=desc`
     }`)
-        .then(
-            ({data}) => dispatch(setDoners(data))
-        )
-    }, 500)
+    .then(
+        ({data}) => dispatch(setDoners(data))
+    )
+
 }
 
 export const setDoners = (value) => ({
